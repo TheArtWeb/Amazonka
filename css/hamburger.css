@@ -1,0 +1,87 @@
+.header-navbar__btn {
+  width: 30px;
+  height: 22.5px;
+  position: relative;
+  transform: rotate(0deg);
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+/* Icon 2 */
+
+.header-navbar__btn-row {
+  display: block;
+  position: absolute;
+  height: 4.5px;
+  width: 50%;
+  background: #ff6c6c;
+  opacity: 1;
+  transform: rotate(0deg);
+  transition: 0.25s ease-in-out;
+}
+
+.header-navbar__btn-row:nth-child(even) {
+  left: 50%;
+  border-radius: 0 3px 3px 0;
+}
+
+.header-navbar__btn-row:nth-child(odd) {
+  left:0px;
+  border-radius: 3px 0 0 3px;
+}
+
+.header-navbar__btn-row:nth-child(1), 
+.header-navbar__btn-row:nth-child(2) {
+  top: 0px;
+}
+
+.header-navbar__btn-row:nth-child(3), 
+.header-navbar__btn-row:nth-child(4) {
+  top: 9px;
+}
+.header-navbar__btn-row:nth-child(5), 
+.header-navbar__btn-row:nth-child(6) {
+  top: 18px;
+}
+
+.header-navbar__btn--active span:nth-child(1),
+.header-navbar__btn--active span:nth-child(6) {
+  transform: rotate(45deg);
+}
+
+.header-navbar__btn--active span:nth-child(2),
+.header-navbar__btn--active span:nth-child(5) {
+  transform: rotate(-45deg);
+}
+
+.header-navbar__btn--active span:nth-child(1) {
+  left: 2.5px;
+  top: 3.5px;
+}
+
+.header-navbar__btn--active span:nth-child(2) {
+  left: calc(50% - 2.5px);
+  top: 3.5px;
+}
+
+.header-navbar__btn--active span:nth-child(3) {
+  left: -50%;
+  opacity: 0;
+}
+
+.header-navbar__btn--active span:nth-child(4) {
+  left: 100%;
+  opacity: 0;
+}
+
+.header-navbar__btn--active span:nth-child(5) {
+  left: 2.5px;
+  top: 14.5px;
+}
+
+.header-navbar__btn--active span:nth-child(6) {
+  left: calc(50% - 2.5px);
+  top: 14.5px;
+}
+
+ 
