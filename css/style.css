@@ -373,6 +373,13 @@ body {
     margin: 40px auto;
     flex-basis: 90%;
   }
+  .card__title {
+    max-width: 150px;
+    font-size: 14px;
+  }
+  .card__price {
+    font-size: 32px;
+  }
   .section__title {
     text-align: center;
   }
